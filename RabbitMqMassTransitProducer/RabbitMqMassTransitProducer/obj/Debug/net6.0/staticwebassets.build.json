@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ocZX7NF41LOQfvJ7F1NkeWbHKUqiGGB6nrU18exuVu8=",
+  "Source": "RabbitMqMassTransitProducer",
+  "BasePath": "_content/RabbitMqMassTransitProducer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

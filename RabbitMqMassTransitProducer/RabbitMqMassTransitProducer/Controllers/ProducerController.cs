@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MassTransit;
+using Microsoft.AspNetCore.Mvc;
 
 namespace RabbitMqMassTransitProducer.Controllers
 {
@@ -6,6 +7,13 @@ namespace RabbitMqMassTransitProducer.Controllers
     [ApiController]
     public class ProducerController : ControllerBase
     {
+        private IPublishEndpoint _publish;
+
+        public ProducerController(IPublishEndpoint publish)
+        {
+            _publish = publish;
+        }
+
         [HttpPost("producer")]
         public async Task<IActionResult> InsertMessage()
         {

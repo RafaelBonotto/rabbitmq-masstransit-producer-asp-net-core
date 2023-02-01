@@ -458,6 +458,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "MassTransitExchange/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MassTransitExchange.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MassTransitExchange.dll": {}
+        }
       }
     }
   },
@@ -1123,6 +1133,11 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "MassTransitExchange/1.0.0": {
+      "type": "project",
+      "path": "../MassTransitExchange/MassTransitExchange.csproj",
+      "msbuildProject": "../MassTransitExchange/MassTransitExchange.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1130,6 +1145,7 @@
       "MassTransit >= 8.0.11",
       "MassTransit.AspNetCore >= 7.3.1",
       "MassTransit.RabbitMQ >= 8.0.11",
+      "MassTransitExchange >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -1165,7 +1181,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rbonotto\\Documents\\Pessoal\\Projetos\\Git\\rabbitmq-masstransit-producer-asp-net-core\\RabbitMqMassTransitProducer\\MassTransitExchange\\MassTransitExchange.csproj": {
+              "projectPath": "C:\\Users\\rbonotto\\Documents\\Pessoal\\Projetos\\Git\\rabbitmq-masstransit-producer-asp-net-core\\RabbitMqMassTransitProducer\\MassTransitExchange\\MassTransitExchange.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

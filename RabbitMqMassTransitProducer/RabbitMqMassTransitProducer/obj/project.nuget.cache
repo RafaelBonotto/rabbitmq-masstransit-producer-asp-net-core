@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9yAgmpGLHr06H3eqA9PNDtWmSDEEc/nju1Kjg8hmUf1az7MqXZ/gCiszQLy9L50oyVN5TybF8b8oqcQ+8hAvNA==",
+  "dgSpecHash": "FL0EB2E8TY2l9hsRfAKTmy3liqr6yTG3YealPBiS61METIK/sHsCgZAsnfsu3b8JYwmjBsqO5lrZPCaFBi4uTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\rbonotto\\Documents\\Pessoal\\Projetos\\Git\\rabbitmq-masstransit-producer-asp-net-core\\RabbitMqMassTransitProducer\\RabbitMqMassTransitProducer\\RabbitMqMassTransitProducer.csproj",
   "expectedPackageFiles": [
